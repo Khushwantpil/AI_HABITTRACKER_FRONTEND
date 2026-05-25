@@ -211,6 +211,10 @@ body::before {
     border-color: var(--input-border-focus);
     box-shadow: 0 0 0 4px var(--input-ring-focus);
   }
+  select.input option {
+    background-color: var(--bg-base);
+    color: var(--text);
+  }
 
   .label {
     @apply block text-sm font-medium mb-1.5;
